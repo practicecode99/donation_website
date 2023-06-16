@@ -1,0 +1,16 @@
+*{
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+}
+.header{
+    background-image: url(../images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    
+}
+.header-section .header-title{
+    text-align: center;
+    color: palevioletred; 
+    font-size: 60px;
+}
