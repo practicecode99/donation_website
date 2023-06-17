@@ -1,16 +1,53 @@
 *{
     font-family: 'Noto Serif', serif;
     margin: 0;
+    padding: 0;
 }
-.header{
-    background-image: url(../images/donation5.jpg);
+.header-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/donation5-edited.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
-    
 }
-.header-section .header-title{
-    text-align: center;
-    color: palevioletred; 
+.header-section .header-title-up{
+    padding-top: 140px;
+    color: yellow; 
     font-size: 60px;
+    font-weight: 400;
+}
+.header-title-down{
+    color: yellow; 
+    font-size: 60px;
+    font-weight: 400;
+}
+.header-paragraph{
+    color: yellow;
+    font-size: 20px;
+    font-weight: 200;
+    max-width: 800px;
+    margin-top: 30px;
+}
+.header-button{
+    background-color: blue;
+    height: 70px;
+    width: 180px;
+    border: 3px solid yellow;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 60px;
+}
+.maximum-width{
+    max-width: 800px;
+}
+.first-main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
