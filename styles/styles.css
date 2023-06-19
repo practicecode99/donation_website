@@ -50,4 +50,115 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: blanchedalmond;
 }
+.first-main-section-title{
+    margin-top: 100px;
+    font-size: 45px;
+    font-weight: 180px;
+}
+.first-main-section-paragraph{
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: 17px;
+}
+.amount-select{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin-top: 70px;
+}
+.amount-select .amount-box{
+    border: 3px solid orangered;
+    height: 70px;
+    width: 110px;
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgb(201, 201, 201);
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 20px;
+}
+.amount-select .amount-box:hover{
+    border: 3px solid blue;
+    background-color: rgb(224, 182, 167);
+    font-size: 30px;
+    font-weight: 20px;
+    color: blue;
+    padding-bottom: 15px;
+}
+.amount-option{
+    margin-top: 60px;
+    font-size: 35px;
+    font-weight: 150px;
+    text-align: center;
+}
+.hr-class{
+    width: 800px;
+    margin-top: 10px;
+}
+.second-main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+    padding-top: 70px;
+}
+.plans{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    padding-top: 70px;
+}
+.plans .plan-one{
+    margin: 25px;
+    padding: 50px 15px 0px 15px;
+    background-color: rgb(174, 220, 221);
+    height: 250px;
+    width: 300px;
+    border-radius: 8px;
+}
+.plans .plan-one h3{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.plans .plan-one p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.plans .plan-two{
+    margin: 25px ;
+    padding: 50px 15px 0px 15px;
+    background-color: rgb(219, 162, 171);
+    height: 250px;
+    width: 300px;
+    border-radius: 8px;
+}
+.plans .plan-two h3{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.plans .plan-two p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.plans .plan-three{
+    margin: 25px;
+    padding: 50px 15px 0px 15px;
+    background-color: rgb(225, 250, 188);
+    height: 250px;
+    width: 300px;
+    border-radius: 8px;
+}
+.plans .plan-three h3{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.plans .plan-three p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+
